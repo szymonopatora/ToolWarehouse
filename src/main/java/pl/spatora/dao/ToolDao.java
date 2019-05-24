@@ -1,6 +1,6 @@
-package pl.jnowacki.dao;
+package pl.spatora.dao;
 
-import pl.jnowacki.model.Tool;
+import pl.spatora.model.Tool;
 
 import java.util.List;
 

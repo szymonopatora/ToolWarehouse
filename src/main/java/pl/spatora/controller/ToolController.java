@@ -1,7 +1,7 @@
-package pl.jnowacki.controller;
+package pl.spatora.controller;
 
-import pl.jnowacki.model.Tool;
-import pl.jnowacki.service.ToolsService;
+import pl.spatora.model.Tool;
+import pl.spatora.service.ToolsService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,8 +1,8 @@
-package pl.jnowacki.service;
+package pl.spatora.service;
 
-import pl.jnowacki.dao.ToolDao;
-import pl.jnowacki.dao.ToolDaoImpl;
-import pl.jnowacki.model.Tool;
+import pl.spatora.dao.ToolDao;
+import pl.spatora.dao.ToolDaoImpl;
+import pl.spatora.model.Tool;
 
 import java.util.List;
 import java.util.Optional;

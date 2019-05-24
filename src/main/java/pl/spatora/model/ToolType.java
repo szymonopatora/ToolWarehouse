@@ -1,4 +1,4 @@
-package pl.jnowacki.model;
+package pl.spatora.model;
 
 public enum ToolType {
     HAMMER, SCREWDRIVER, SAW

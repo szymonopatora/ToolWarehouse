@@ -1,7 +1,7 @@
-package pl.jnowacki.dao;
+package pl.spatora.dao;
 
-import pl.jnowacki.model.Tool;
-import pl.jnowacki.model.ToolType;
+import pl.spatora.model.Tool;
+import pl.spatora.model.ToolType;
 
 import java.sql.*;
 import java.util.ArrayList;
