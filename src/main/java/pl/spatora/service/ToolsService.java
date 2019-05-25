@@ -3,6 +3,7 @@ package pl.spatora.service;
 import pl.spatora.dao.ToolDao;
 import pl.spatora.dao.ToolDaoImpl;
 import pl.spatora.model.Tool;
+import pl.spatora.model.User;
 
 import java.util.List;
 import java.util.Optional;
@@ -10,6 +11,7 @@ import java.util.Optional;
 public class ToolsService {
 
     private ToolDao toolDao = new ToolDaoImpl();
+    private User user = new User();
 
     public List<Tool> getTools(){
         return toolDao.getAllTools();

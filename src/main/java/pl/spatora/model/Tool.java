@@ -8,15 +8,18 @@ public class Tool implements Serializable {
     private String name;
     private ToolType type;
     private boolean available;
+    private Long idUser;
+
 
     public Tool() {
     }
 
-    public Tool(Long id, String name, ToolType type, boolean available) {
+    public Tool(Long id, String name, ToolType type, boolean available, Long idUser) {
         this.id = id;
         this.name = name;
         this.type = type;
         this.available = available;
+        this.idUser = idUser;
     }
 
     public Long getId() {
@@ -25,6 +28,14 @@ public class Tool implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public ToolType getType() {
@@ -43,11 +54,11 @@ public class Tool implements Serializable {
         this.available = available;
     }
 
-    public String getName() {
-        return name;
+    public Long getIdUser() {
+        return idUser;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setIdUser(Long idUser) {
+        this.idUser = idUser;
     }
 }
