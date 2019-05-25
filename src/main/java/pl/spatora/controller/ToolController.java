@@ -28,7 +28,6 @@ public class ToolController extends HttpServlet {
         if (action != null) {
             processAction(action, Long.valueOf(req.getParameter("id")));
         }
-
         req.getRequestDispatcher("/tools.jsp").forward(req, resp);
     }
 
